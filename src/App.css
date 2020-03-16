@@ -1,0 +1,59 @@
+
+.profile-avatar {
+  display: block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.profile-username{
+  display: block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.8px;
+  word-spacing: 1.2px;
+  color: #110f0f;
+  font-weight: normal;
+  text-decoration: solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px auto;
+  grid-gap: 1px;
+  background-color: slategray;
+  padding: 1px;
+}
+
+.grid-container > div {
+  background-color: silver;
+  text-align: center;
+  padding: 27px;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: darkgray;
+}
+
+#navbarBrand {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.8px;
+  word-spacing: 1.2px;
+  color: black;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
